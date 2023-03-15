@@ -2,12 +2,21 @@ body {
     background-color: black;
 }
 
-#MainDiv {
-    background-color: black;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+#table {
     font-family: "cascadia code";
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: (-50%, -50%);
 }
+
+th {
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
+
