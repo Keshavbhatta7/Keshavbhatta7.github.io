@@ -1,6 +1,13 @@
+@font-face {
+    font-family: "Cascadia Code";
+    src: url("./font/CascadiaCode.ttf") format("truetype");
+  }
+  
+
 body {
     background-color: black;
     color: white;
+    font-family: "Cascadia Code", sans-serif;
 
 }
 
@@ -12,6 +19,7 @@ body {
     top: 10%;
     left: 30%;
     transform: (-50%, -50%);
+
 }
 
 th {
